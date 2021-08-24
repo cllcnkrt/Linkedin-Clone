@@ -16,8 +16,8 @@ function Sidebar() {
       <div className="sidebar__top">
         <img src="https://images.ctfassets.net/7thvzrs93dvf/wpImage18643/2f45c72db7876d2f40623a8b09a88b17/linkedin-default-background-cover-photo-1.png?w=790&h=196&q=90&fm=webp" alt="" />
         <Avatar className="sidebar__avatar" />
-        <h2>Brad Pitt</h2>
-        <h4>brad.pitt@gmail.com</h4>
+        <h2>Celal Can Kurt</h2>
+        <h4>cllcnkrt@gmail.com</h4>
       </div>
       
       <div className="sidebar__stats">
