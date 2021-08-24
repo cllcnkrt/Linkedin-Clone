@@ -6,12 +6,14 @@ import Feed from "./components/Feed/Feed";
 import {selectUser} from "./features/userSlice";
 import Login from "./components/Login/Login";
 import { useSelector } from "react-redux";
+import Widget from "./components/Widget/Widget.js";
 
 function App() {
   const user = useSelector(selectUser);
 
   return (
     <div className="app">
+   
       <Header />
       {!user ? (
         <Login />
@@ -19,10 +21,10 @@ function App() {
         <div className="app__body">
           <Sidebar />
           <Feed />
-          {/* widgets */}
+         <Widget />
         </div>
       )}
-    </div>
+    </div> 
   );
 }
 
