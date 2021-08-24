@@ -58,7 +58,6 @@ function Login() {
   
   return (
     <div className="login">
-      <h1>You are not logged in</h1>
       <img
         src="https://www.freepnglogos.com/uploads/linkedin-logo-transparent-png-16.png"
         alt=""
@@ -95,7 +94,7 @@ function Login() {
         </button>
       </form>
       <p>
-        Not a number?{" "}
+        Not a member?{" "}
         <span className="login__register" onClick={register}>
           Register Now
         </span>
